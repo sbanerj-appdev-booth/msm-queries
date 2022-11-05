@@ -1,0 +1,10 @@
+<h1> Youngest director </h1>
+
+
+<p>
+
+  The youngest director in our dataset right now is <%= @youngest_director.name %>, born on <%= @youngest_director.dob.strftime("%b %e, %Y") %>.
+
+</p>
+
+(http://strftime.net/ is handy for putting together the formatting strings for the .strftime method.)

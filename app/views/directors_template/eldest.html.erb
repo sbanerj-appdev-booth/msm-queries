@@ -1,0 +1,12 @@
+<h1> Eldest director </h1>
+
+
+<p>
+
+  The eldest director in our dataset right now is <%= @eldest_director.name %>, born on <%= @eldest_director.dob.strftime("%b %e, %Y") %>.
+
+</p>
+
+(http://strftime.net/ is handy for putting together the formatting strings for the .strftime method.)
+
+<a href="/directors/2662">
